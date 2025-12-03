@@ -13,11 +13,11 @@ import {
   Divider,
 } from "@mui/material";
 
-import { FaHome, FaCalendarAlt, FaFileInvoice, FaPills, FaSignOutAlt } from "react-icons/fa";
+import { /* FaHome, */ FaCalendarAlt, FaFileInvoice, FaPills, FaSignOutAlt } from "react-icons/fa";
 import { logout } from "../Auth/auth.service";
 
 const menuItems = [
-  { label: "Tableau de bord", icon: <FaHome />, to: "/patient/dashboard" },
+  // { label: "Tableau de bord", icon: <FaHome />, to: "/patient/dashboard" },
   { label: "Mes rendez-vous", icon: <FaCalendarAlt />, to: "/patient/rendezvous" },
   { label: "Ordonnances", icon: <FaPills />, to: "/patient/ordonnances" },
   { label: "Factures", icon: <FaFileInvoice />, to: "/patient/factures" },

@@ -5,9 +5,9 @@ import Register from "../modules/Auth/Register";
 import ListeClinique from "../modules/Clinique/ListeClinique";
 import AjouterClinique from "../modules/Clinique/AjouterClinique";
 import ModifierClinique from "../modules/Clinique/ModifierClinique";
-import DashboardPatient from "../modules/Patient/DashboardPatient";
-import DashboardMedecin from "../modules/Medecin/DashboardMedecin";
-import DashboardReceptionniste from "../modules/Receptionniste/DashboardReceptionniste";
+// import DashboardPatient from "../modules/Patient/DashboardPatient";
+// import DashboardMedecin from "../modules/Medecin/DashboardMedecin";
+// import DashboardReceptionniste from "../modules/Receptionniste/DashboardReceptionniste";
 import ProtectedRoute from "../modules/Auth/ProtectedRoute";
 import ModifierMedecin from "../modules/Medecin/ModifierMedecin";
 import AjouterMedecin from "../modules/Medecin/AjouterMedecin";
@@ -70,7 +70,7 @@ export default function AppRoutes() {
             </ProtectedRoute>
           }
         >
-          <Route path="dashboard" element={<DashboardMedecin />} />
+          {/* <Route path="dashboard" element={<DashboardMedecin />} /> */}
           <Route path="rendezvous" element={<ListeRendezVousMedecin />} />
           <Route path="consultations" element={<ListeConsultationsMedecin />} />
         </Route>
@@ -84,7 +84,7 @@ export default function AppRoutes() {
             </ProtectedRoute>
           }
         >
-          <Route path="dashboard" element={<DashboardReceptionniste />} />
+          {/* <Route path="dashboard" element={<DashboardReceptionniste />} /> */}
           <Route path="rendezvous" element={<ListeRendezVousReceptionniste />} />
           <Route path="ajouter-rendezvous" element={<AjouterRendezVous />} />
           <Route path="factures" element={<ListeFacturesReceptionniste />} />
@@ -99,7 +99,7 @@ export default function AppRoutes() {
             </ProtectedRoute>
           }
         >
-          <Route path="dashboard" element={<DashboardPatient />} />
+          {/* <Route path="dashboard" element={<DashboardPatient />} /> */}
           <Route path="ordonnances" element={<ListeOrdonnancesPatient />} />
           <Route path="factures" element={<ListeFacturesPatient />} />
           <Route path="rendezvous" element={<ListeRendezVousPatient />} />

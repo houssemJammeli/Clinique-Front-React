@@ -11,11 +11,11 @@ import {
   Typography,
   Divider,
 } from "@mui/material";
-import { FaHome, FaCalendarAlt, FaFileMedical, FaSignOutAlt } from "react-icons/fa";
+import {/* FaHome, */ FaCalendarAlt, FaFileMedical, FaSignOutAlt } from "react-icons/fa";
 import { logout } from "../Auth/auth.service";
 
 const menuItems = [
-  { label: "Tableau de bord", icon: <FaHome />, to: "/medecin/dashboard" },
+  // { label: "Tableau de bord", icon: <FaHome />, to: "/medecin/dashboard" },
   { label: "Mes rendez-vous", icon: <FaCalendarAlt />, to: "/medecin/rendezvous" },
   { label: "Consultations", icon: <FaFileMedical />, to: "/medecin/consultations" },
 ];

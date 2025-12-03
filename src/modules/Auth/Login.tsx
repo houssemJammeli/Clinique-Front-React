@@ -31,13 +31,13 @@ export default function Login() {
           navigate("/admin/dashboard");
           break;
         case "Medecin":
-          navigate("/medecin/dashboard");
+          navigate("/medecin/rendezvous");
           break;
         case "Receptionniste":
-          navigate("/receptionniste/dashboard");
+          navigate("/receptionniste/rendezvous");
           break;
         case "Patient":
-          navigate("/patient/dashboard");
+          navigate("/patient/rendezvous");
           break;
         default:
           navigate("/");

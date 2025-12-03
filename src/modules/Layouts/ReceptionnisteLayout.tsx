@@ -12,11 +12,11 @@ import {
   Divider,
 } from "@mui/material";
 
-import { FaHome, FaCalendarPlus, FaFileInvoice, FaSignOutAlt } from "react-icons/fa";
+import {/* FaHome, */ FaCalendarPlus, FaFileInvoice, FaSignOutAlt } from "react-icons/fa";
 import { logout } from "../Auth/auth.service";
 
 const menuItems = [
-  { label: "Tableau de bord", icon: <FaHome />, to: "/receptionniste/dashboard" },
+  // { label: "Tableau de bord", icon: <FaHome />, to: "/receptionniste/dashboard" },
   { label: "Rendez-vous", icon: <FaCalendarPlus />, to: "/receptionniste/rendezvous" },
   { label: "Factures", icon: <FaFileInvoice />, to: "/receptionniste/factures" },
 ];
